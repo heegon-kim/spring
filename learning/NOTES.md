@@ -25,3 +25,11 @@ IntelliJ에서 프로젝트 열기
 - 압축해제한 폴더에 build.gradle을 선택하여 프로젝트를 열음
 - src - main - java - hello - hellospring - .java - run
 - localhost:8080
+
+
+
+
+
+강의: https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8
+markdown 참고: https://gist.github.com/ihoneymon/652be052a0727ad59601#21-%ED%97%A4%EB%8D%94headers
+github에 spring 커밋하기: https://twoicefish-secu.tistory.com/121
