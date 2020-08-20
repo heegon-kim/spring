@@ -26,8 +26,19 @@ IntelliJ에서 프로젝트 열기
 - src - main - java - hello - hellospring - .java - run
 - localhost:8080
 
+## 2020-07-28
+### 컴파일 에러 java: Invalid Source Release: 11 Error
+조치방법: https://www.programmersought.com/article/7983892146/
+버전을 11에서 8로 낮춤.
 
+### Welcome Page(=index.html) 생성
+Spring사이트의 본문 설명: https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-spring-mvc-welcome-page
+Welcome Page는 src-main-resources-static 디렉터리에 index.html(정적 페이지)로 생성
 
+### 템플릿 엔진 사용 (thymeleaf)
+https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-spring-mvc-template-engines
+
+### controller 생성 및 사용
 
 
 강의: https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8
