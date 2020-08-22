@@ -45,7 +45,18 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-featu
 ### 프로젝트 빌드 및 실행
 ![image](https://user-images.githubusercontent.com/57381163/90749481-74645080-e30e-11ea-8c40-f2a12f01f096.png) 
    
- 
+## 2020-08-22
+### 정적 컨텐츠
+파일을 고객에게 웹브라우저에 그-대로 전달.   
+main - resouces - static - *.html   
+웹 브라우저 -> 내장 톰캣 서버 -> 1. 스프링 컨테이너 or 2. resources: static/*.html -> 웹 브라우저
+### MVC와 템플릿 엔진
+Model-View-Controller의 구성으로 서버에서 html을 좀 변형시켜서 전달   
+View: 화면을 그리는 부분에 집중   
+Model, Controller: 비즈니스 로직, 내부적 처리에 집중   
+### API
+data를 전달하는 여러가지 방법(json. react..)
+
 강의: https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8   
 markdown 참고: https://gist.github.com/ihoneymon/652be052a0727ad59601#21-%ED%97%A4%EB%8D%94headers   
 github에 spring 커밋하기: https://twoicefish-secu.tistory.com/121   
